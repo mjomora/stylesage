@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Cat Clicker - Paso 1 - Dojo</title>
+		
+	</head>
+	<body>
+		<div id="cat1" data-dojo-type="Cat" data-dojo-props="url: 'http://tclhost.com/bxRvNRA.gif'"></div>
+	
+		<script>
+			dojoConfig = {
+				   async: true,
+				   parseOnLoad: true,
+				   locale: 'es',
+				   packages: [
+						{ name: "jsCat", location: location.href + "/js" }]
+			};
+		</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.12.1/dojo/dojo.js" ></script>
+		
+		<script>
+		    require(["jsCat/Cat", "dojo/parser", "dojo/ready"], function (Cat, parser, ready) {
+		       ready(function(){
+					parser.parse();
+				});
+		    });
+			
+			
+		</script>
+		
+			
+	</body>
+</html>
