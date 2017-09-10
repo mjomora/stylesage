@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;    
+}
+#container {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    height: 100%;
+    
+    width: 100%;
+    background-color: #ffe6cc;
+}
+
+header {
+    background-color: #d7e6f4;
+	border-style: ridge;
+}
+#container article {
+    -webkit-flex: 1 1 auto;
+    overflow-y: scroll;
+}
+
+footer {
+    background-color: #d7e6f4;
+	border-style: ridge;
+}
+
+header .name {
+	float: left;
+}
+
+header .hello {
+	float: right;
+	padding-right: 20px;
+}
+
+.card{
+    min-height: 350px;
+width: 20rem;
+}
+
+.card img {
+	max-height:220px;
+}
+
+.pull-xs-right {
+  float: right !important;
+}
