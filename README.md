@@ -6,4 +6,5 @@ Una	app	que	muestre	la	foto	de	un	gato	y	que	cuente	el	número	de	veces	que	se	h
 
 Este ejercicio está hecho en dojo, que es el framework que conozco. La idea era encapsular un widget "Cat" con sus atributos (url, contador, elementos html img y span) y sus eventos y métodos javascript.
 
-
+<b><s>MaquetacionCss</s></b>
+HTML hecho usando algunos tags de Bootstrap y html5.
