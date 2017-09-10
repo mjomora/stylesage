@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Cat Clicker - Paso 1 - Dojo</title>
+		
+	</head>
+	<body>
+		<div id="cat1" data-dojo-type="Cat" data-dojo-props="url: 'https://i.pinimg.com/736x/85/0d/22/850d228cc10a4c4213584b0d86895dcd--cat-allergy-symptoms-cute-cat-video.jpg'"></div>
+	
+		<script>
+			dojoConfig = {
+				   async: true,
+				   parseOnLoad: true,
+				   locale: 'es',
+				   packages: [
+						{ name: "jsCat", location: location.href + "/js" }]
+			};
+		</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.12.1/dojo/dojo.js" ></script>
+		
+		<script>
+		    require(["jsCat/Cat", "dojo/parser", "dojo/ready"], function (Cat, parser, ready) {
+		       ready(function(){
+					parser.parse();
+				});
+		    });
+			
+			
+		</script>
+		
+			
+	</body>
+</html>
